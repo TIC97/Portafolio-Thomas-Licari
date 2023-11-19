@@ -1,6 +1,5 @@
 {
-  "name": "portafolio-thomas-licari",
-  "homepage": "http://ThomasDev.com",
+  "name": "driver-js",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,11 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0",
-    "swiper": "^11.0.4"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
