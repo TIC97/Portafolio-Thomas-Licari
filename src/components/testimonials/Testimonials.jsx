@@ -4,12 +4,12 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
-// import Swiper core and required modules
+//* import Swiper core and required modules
 import {  Pagination } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+//* Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -44,9 +44,12 @@ const Testimonials = () => {
 
       <Swiper className="container testimonials__container"
       //* install Swiper modules
-      modules={[ Pagination ]} spaceBetween={40}
+      modules={[ Pagination ]} 
+      spaceBetween={40}
       slidesPerView={1}
-      pagination={{ clickable: true }}>
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }} >
+
         {
           data.map(({avatar, name, review }, index) => {
             return (

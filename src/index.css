@@ -61,7 +61,7 @@ section {
     margin-top: 8rem;
 }
 
-section > h2, section >h5 {
+section > h2, section > h5 {
     text-align: center;
     color: var(--color-light);
 }
@@ -107,6 +107,12 @@ a:hover {
     -o-transition: var(--transition);
 }
 
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
@@ -134,7 +140,7 @@ img {
 
 @media  screen and (max-width: 600px) {
     .container {
-        width: var(--container-width-ms);
+        width: var(--container-width-sm);
     }
 
     section > h2 {

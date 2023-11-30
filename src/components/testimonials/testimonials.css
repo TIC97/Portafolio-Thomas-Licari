@@ -1,6 +1,11 @@
 .container.testimonials__container {
     width: 40%;
     padding-bottom: 4rem;
+    padding-right: 4rem;
+}
+
+.testimonial {
+    padding-top: 30px;
 }
 
 .client__avatar {
@@ -19,7 +24,11 @@
 .testimonial  {
     background: var(--color-bg-variant);
     text-align: center;
-    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-left: 20px;
+    margin: 0.8rem;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
@@ -48,7 +57,7 @@
 }
 
 
-/*****    MEDIA QUERYS  Small Devices   *****/
+/*****    MEDIA QUERYS     Small Devices   *****/
 
 @media screen and (max-width: 600px) {
     .container.testimonials__container {
